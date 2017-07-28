@@ -19,8 +19,8 @@ docker run -itd -v $(pwd)/app:/usr/src/app \
 docker exec -it festival-crawler-app /bin/sh
 ```
 
-## スクレイピングコマンド
+## スクレイピングコマンド
 
 ```
-scrapy crawl festival:august -o result.json
+scrapy crawl festival:august -o result.json
 ```
